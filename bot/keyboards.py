@@ -5,5 +5,7 @@ start = ReplyKeyboardMarkup(keyboard=[
 ], resize_keyboard=True)
 
 find = ReplyKeyboardMarkup(keyboard=[
-    [KeyboardButton(text = f'Обрати звідки летіти'), KeyboardButton(text = f'Обрати куди летіти'), KeyboardButton(text = f'Коли летіти')]
+    [KeyboardButton(text = f'Find the best departure airport')],
+    [KeyboardButton(text = f'Find the best destination airport')],
+    [KeyboardButton(text = f'Find the best date for the travel')]
 ], resize_keyboard=True)
