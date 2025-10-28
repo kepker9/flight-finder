@@ -15,3 +15,8 @@ departure_type = ReplyKeyboardMarkup(keyboard=[
     [KeyboardButton(text = kbtext.departure_type_round_trip)],
     [KeyboardButton(text = kbtext.departure_type_one_way)]
 ], resize_keyboard=True)
+
+destination_type = ReplyKeyboardMarkup(keyboard=[
+    [KeyboardButton(text = kbtext.destination_type_round_trip)],
+    [KeyboardButton(text = kbtext.destination_type_one_way)]
+], resize_keyboard=True)
