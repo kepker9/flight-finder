@@ -1,0 +1,11 @@
+1) Given:
+airports/cities, length of travel, amount of days to analyze, starting date
+
+Find:
+the cheapest dates to fly
+
+2) Given:
+list of countries to fly from/to, airport/cities to fly to, date of flight
+
+Find:
+Airpost from where is the cheapest to fly

@@ -1,0 +1,8 @@
+How to generate links!
+
+"flights to X from Y on 1234-12-34 through 1234-12-34
+
+https://www.google.com/travel/flights?q=Flights%20to%20WAW%20from%20BOS%20on%202025-12-13%20through%202025-12-31&curr=USD
+
+one-way flight
+https://www.google.com/travel/flights?q=Flights%20to%20DTW%20from%20ATL%20on%202025-10-24%20oneway&curr=USD
