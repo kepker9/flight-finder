@@ -3,7 +3,7 @@ import logging
 from aiogram import Bot, Dispatcher
 
 from bot.config_reader import config
-from bot.handlers import common
+from bot.handlers import common, departure
 
 logging.basicConfig(level=logging.INFO)
 
@@ -13,7 +13,7 @@ dp = Dispatcher()
 
 
 async def main():
-    dp.include_router(common.router)
+    dp.include_routers(common.router, departure.router)
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
