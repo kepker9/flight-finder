@@ -4,7 +4,6 @@ from aiogram.enums import ParseMode
 from aiogram.types import ReplyKeyboardRemove
 
 import bot.keyboards as kb
-import bot.keyboard_text as kbtext
 
 router = Router()
 

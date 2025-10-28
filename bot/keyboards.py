@@ -8,5 +8,10 @@ start = ReplyKeyboardMarkup(keyboard=[
 find = ReplyKeyboardMarkup(keyboard=[
     [KeyboardButton(text = kbtext.find_departure)],
     [KeyboardButton(text = kbtext.find_destination)],
-    [KeyboardButton(text = kbtext.find_date)],
+    [KeyboardButton(text = kbtext.find_date)]
+], resize_keyboard=True)
+
+departure_type = ReplyKeyboardMarkup(keyboard=[
+    [KeyboardButton(text = kbtext.departure_type_round_trip)],
+    [KeyboardButton(text = kbtext.departure_type_one_way)]
 ], resize_keyboard=True)
